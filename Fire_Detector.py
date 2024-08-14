@@ -11,10 +11,10 @@ vid = cv2.VideoCapture(0)
 runOnce = False  # To ensure that SMS is sent only once
 
 # Twilio credentials (replace with your actual credentials)
-account_sid = 'AC397f69959d8a51bbc1a8d4a316021e68'
-auth_token = 'dd90878211e42198e1704572b71b6847'
-twilio_phone_number = '+14244880906'  # Your Twilio phone number
-recipient_phone_number = '+917666578547'  # The recipient's phone number
+account_sid = 'Enter Your account_sid'
+auth_token = 'Enter Your auth_token'
+twilio_phone_number = '+Your Twilio phone numbe' 
+recipient_phone_number = '+91 The recipient's phone number' 
 
 # Function to play alarm sound using pygame
 def play_alarm_sound_function():
