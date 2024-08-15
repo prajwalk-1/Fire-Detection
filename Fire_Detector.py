@@ -14,7 +14,7 @@ runOnce = False  # To ensure that SMS is sent only once
 account_sid = 'Enter Your account_sid'
 auth_token = 'Enter Your auth_token'
 twilio_phone_number = '+Your Twilio phone numbe' 
-recipient_phone_number = '+91 The recipient's phone number' 
+recipient_phone_number = 'The recipient's phone number with country code' 
 
 # Function to play alarm sound using pygame
 def play_alarm_sound_function():
